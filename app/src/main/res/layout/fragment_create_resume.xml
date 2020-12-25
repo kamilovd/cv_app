@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создание резюме"
+            android:textSize="21sp"
+            android:textColor="@color/red"
+            android:textAppearance="@style/CV.Text.Heading"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="4dp"
+            android:text="Ф.И.О"
+            android:textSize="14sp"
+            style="@style/CV.Text.Heading"/>
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="Телефон"
+            android:textSize="14sp"
+            style="@style/CV.Text.Heading"/>
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="+7 777 77777777"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="Город"
+            android:textSize="14sp"
+            style="@style/CV.Text.Heading"/>
+        <EditText
+            android:id="@+id/editCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="Желаемая должность"
+            android:textSize="14sp"
+            style="@style/CV.Text.Heading"/>
+        <EditText
+            android:id="@+id/editSpeciality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/layoutSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Ключевые навыки"
+                android:textSize="14sp"
+                style="@style/CV.Text.Heading"/>
+            <include layout="@layout/widget_skill"/>
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddSkill"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            app:cornerRadius="2dp"
+            app:strokeWidth="0.5dp"
+            android:text="Добавить навык"
+            android:textSize="13dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            app:strokeColor="@color/blue"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <LinearLayout
+            android:id="@+id/layoutExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Опыт работы"
+                android:textSize="14sp"
+                style="@style/CV.Text.Heading"/>
+            <EditText
+                android:id="@+id/editExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddExperience"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            app:cornerRadius="2dp"
+            app:strokeWidth="0.5dp"
+            android:text="Добавить еще"
+            android:textSize="13dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            app:strokeColor="@color/blue"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSaveResume"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="32dp"
+            app:cornerRadius="2dp"
+            app:strokeWidth="0.5dp"
+            android:text="Сохранить"
+            android:textSize="13dp"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            app:strokeColor="@color/red"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </LinearLayout>
+</ScrollView>

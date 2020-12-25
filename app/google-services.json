@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196623597238",
+    "firebase_url": "https://cvapp-ffba2.firebaseio.com",
+    "project_id": "cvapp-ffba2",
+    "storage_bucket": "cvapp-ffba2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196623597238:android:68395db24900158f0df017",
+        "android_client_info": {
+          "package_name": "com.damir.android.cv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196623597238-qu55dvl2s7jaf2f88co1v3mbiqh2p2vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.damir.android.cv",
+            "certificate_hash": "239c625c9d8353d412a604c7f6fda7048c63aacc"
+          }
+        },
+        {
+          "client_id": "196623597238-c7evbovv0n5gfmdhtl7enjpkf1jp4pfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGyAbnQUfz-cn-mYu48QWxYZYizfvy5yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196623597238-c7evbovv0n5gfmdhtl7enjpkf1jp4pfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

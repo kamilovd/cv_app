@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.button.MaterialButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonShowMore"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="32dp"
+    android:text="Показать еще"
+    android:textAllCaps="false"
+    android:elevation="0.4dp"
+    app:cornerRadius="4dp"
+    android:backgroundTint="@color/blue">
+
+
+</com.google.android.material.button.MaterialButton>

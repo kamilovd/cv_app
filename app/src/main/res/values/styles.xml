@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black_222</item>
+        <item name="android:textColor">@color/black_222</item>
+        <item name="editTextStyle">@style/CV.EditText</item>
+    </style>
+
+
+
+
+
+    <!--//////////////// TEXT STYLES ////////////////////-->
+    <style name="CV.Text.Heading" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextGraySubheading">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+    <!-- ///////////////// WIDGET STYLES ////////////////// -->
+    <style name="CV.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+</resources>

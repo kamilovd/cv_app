@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_222"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_cv_resume"
+            android:layout_gravity="center"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.2"
+                android:background="#202020"/>
+            <TextView
+                android:id="@+id/textCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="@string/app_main_description"
+                android:textColor="@color/white" />
+        </FrameLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:backgroundTint="@color/blue"
+            app:cornerRadius="2dp"
+            app:elevation="1dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp"
+            app:cornerRadius="2dp"
+            app:elevation="1dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/viewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <View
+                android:id="@+id/view1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                app:layout_constraintTop_toTopOf="@id/textOr"
+                app:layout_constraintBottom_toBottomOf="@id/textOr"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/textOr"/>
+            <TextView
+                android:id="@+id/textOr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toEndOf="@id/view1"
+                app:layout_constraintEnd_toStartOf="@id/view2"
+                android:text="или" />
+            <View
+                android:id="@+id/view2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                app:layout_constraintTop_toTopOf="@id/textOr"
+                app:layout_constraintBottom_toBottomOf="@id/textOr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/textOr"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/sign_in_with_google"
+            android:textColor="@color/black_222"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="2dp"
+            app:elevation="1dp"
+            android:drawableLeft="@drawable/ic_google" />
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:indeterminate="true"
+            android:visibility="gone"
+            android:backgroundTint="@color/blue"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAppearance="?textAppearanceOverline"
+        android:text="Kamilov Damir CS-1702R"/>
+</FrameLayout>

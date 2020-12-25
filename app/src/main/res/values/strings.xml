@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CV App</string>
+    <string name="appPrefs">AppPrefs</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+    Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+        Lorem Ipsum sit dolor ame.. and we ad  cx asdw Lorem Ipsum sit dolor ame.. and we ad  cx asdw
+    </string>
+    <string name="app_main_description">Войдите или зарегистрируйтесь и подберите нужного кандидата или вакансию</string>
+    <string name="sign_in_with_google">Войти с помощью Google</string>
+    <string name="login">Войти</string>
+    <string name="logging">Вход</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="text_continue">Продолжить</string>
+    <string name="vacancy">Вакансии</string>
+    <string name="full_name">Ф.И.О</string>
+    <string name="salary">Зарплата</string>
+    <string name="experience">Опыт</string>
+    <string name="create_resume">Создать резюме</string>
+    <string name="position">Должность</string>
+    <string name="location">Город</string>
+    <string name="skills">Ключевые навыки</string>
+    <string name="about_me">Обо мне</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="search">Поиск</string>
+    <string name="resume">Резюме</string>
+    <string name="favorites">Избранное</string>
+    <string name="profile">Профиль</string>
+
+    <string name="format_salary_full">%1$d - %2$d %3$s</string>
+    <string name="format_salary_from">от %1$d %2$s</string>
+    <string name="format_salary_to">до %1$d %2$s</string>
+    <string name="format_company_trusted">%1$s \u2713</string>
+</resources>
